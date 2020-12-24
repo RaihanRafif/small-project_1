@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    
+    <div class="status">
+        <h1>BERANDA</h1>
+        <textarea name="status" type="text" id="status"></textarea>
+            <br>
+        <button type="button" onclick="new_twt()">tweet</button>
+        <button type="button" onclick="erase_twt()">erase</button>
+    </div>
+    <div>
+        <p class="status_lama" id="old_tweet">
+        </p>
+    </div>
+    <script>
+        update();
+    </script>
+</body>
+</html>
